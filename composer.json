@@ -1,0 +1,15 @@
+{
+  "name": "Ssh",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-openssl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ssh\\": "src/Ssh"
+    }
+  }
+}
